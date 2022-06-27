@@ -1,0 +1,40 @@
+body
+{
+    margin: 0;
+}
+.hidden {
+    display: none !important;
+    transition: 1s;
+}
+h1
+{
+    color: white;
+    font-size: 60px;
+}
+.winner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
+.reload
+{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    cursor: pointer;
+    position: absolute;
+    width: 100vw;
+    z-index: 2;
+}
+button
+{
+    font-size: 30;
+    color: black;
+    border: none;
+    background-color: transparent;
+}
